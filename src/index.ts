@@ -1,9 +1,18 @@
-export const linear = 'cubic-bezier(0.250, 0.250, 0.750, 0.750)';
-export const ease = 'cubic-bezier(0.250, 0.100, 0.250, 1.000)';
-export const easeIn = 'cubic-bezier(0.420, 0.000, 1.000, 1.000)';
-export const easeOut = 'cubic-bezier(0.000, 0.000, 0.580, 1.000)';
+// 'cubic-bezier(0.250, 0.250, 0.750, 0.750)'
+export const linear = 'linear';
 
-export const easeInOut = 'cubic-bezier(0.420, 0.000, 0.580, 1.000)';
+// 'cubic-bezier(0.250, 0.100, 0.250, 1.000)'
+export const ease = 'ease';
+
+// 'cubic-bezier(0.420, 0.000, 1.000, 1.000)'
+export const easeIn = 'ease-in';
+
+// 'cubic-bezier(0.000, 0.000, 0.580, 1.000)'
+export const easeOut = 'ease-out';
+
+// 'cubic-bezier(0.420, 0.000, 0.580, 1.000)'
+export const easeInOut = 'ease-in-out';
+
 export const easeInQuad = 'cubic-bezier(0.550, 0.085, 0.680, 0.530)';
 export const easeInCubic = 'cubic-bezier(0.550, 0.055, 0.675, 0.190)';
 export const easeInQuart = 'cubic-bezier(0.895, 0.030, 0.685, 0.220)';
