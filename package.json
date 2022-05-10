@@ -1,0 +1,19 @@
+{
+  "name": "css-in-js-easing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiro0218/css-in-js-easing.git"
+  },
+  "author": "hiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiro0218/css-in-js-easing/issues"
+  },
+  "homepage": "https://github.com/hiro0218/css-in-js-easing#readme"
+}
