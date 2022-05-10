@@ -1,22 +1,23 @@
-const { build } = require('esbuild');
+import { build as esbuild } from 'esbuild';
 
 const common = {
   bundle: true,
   entryPoints: ['src/index.ts'],
-  logLevel: 'info',
   minify: true,
   sourcemap: false,
 };
 
-build({
+esbuild({
   ...common,
+  logLevel: 'info',
   format: 'esm',
   outfile: './dist/index.esm.js',
   target: ['ES6'],
 });
 
-build({
+esbuild({
   ...common,
+  logLevel: 'info',
   format: 'cjs',
   outfile: './dist/index.cjs.js',
   target: ['ES6'],
