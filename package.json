@@ -12,7 +12,7 @@
     "build": "run-p build:*",
     "build:esbuild": "ts-node build.ts",
     "build:types": "tsc --declaration --emitDeclarationOnly --declarationDir './dist'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
