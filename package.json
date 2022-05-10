@@ -19,9 +19,14 @@
     "url": "git+https://github.com/hiro0218/css-in-js-easing.git"
   },
   "keywords": [
+    "animation",
     "css",
+    "css-in-js",
     "easing",
-    "css-in-js"
+    "easings",
+    "easing-function",
+    "transition",
+    "transition-timing-function"
   ],
   "author": "hiro",
   "license": "MIT",
