@@ -20,3 +20,37 @@ const sample = styled.div`
  transition-timing-function: ${easeInOutBack};
 `
 ```
+
+## easing-function list
+
+The following easing-function can export.
+
+- `linear`
+- `ease`
+- `easeIn`
+- `easeOut`
+- `easeInOut`
+- `easeInQuad`
+- `easeInCubic`
+- `easeInQuart`
+- `easeInQuint`
+- `easeInSine`
+- `easeInExpo`
+- `easeInCirc`
+- `easeInBack`
+- `easeOutQuad`
+- `easeOutCubic`
+- `easeOutQuart`
+- `easeOutQuint`
+- `easeOutSine`
+- `easeOutExpo`
+- `easeOutCirc`
+- `easeOutBack`
+- `easeInOutQuad`
+- `easeInOutCubic`
+- `easeInOutQuart`
+- `easeInOutQuint`
+- `easeInOutSine`
+- `easeInOutExpo`
+- `easeInOutCirc`
+- `easeInOutBack`
