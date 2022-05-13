@@ -1,41 +1,29 @@
-// 'cubic-bezier(0.250, 0.250, 0.750, 0.750)'
 export const linear = 'linear';
-
-// 'cubic-bezier(0.250, 0.100, 0.250, 1.000)'
 export const ease = 'ease';
-
-// 'cubic-bezier(0.420, 0.000, 1.000, 1.000)'
 export const easeIn = 'ease-in';
-
-// 'cubic-bezier(0.000, 0.000, 0.580, 1.000)'
 export const easeOut = 'ease-out';
-
-// 'cubic-bezier(0.420, 0.000, 0.580, 1.000)'
 export const easeInOut = 'ease-in-out';
-
-export const easeInQuad = 'cubic-bezier(0.550, 0.085, 0.680, 0.530)';
-export const easeInCubic = 'cubic-bezier(0.550, 0.055, 0.675, 0.190)';
-export const easeInQuart = 'cubic-bezier(0.895, 0.030, 0.685, 0.220)';
-export const easeInQuint = 'cubic-bezier(0.755, 0.050, 0.855, 0.060)';
-export const easeInSine = 'cubic-bezier(0.470, 0.000, 0.745, 0.715)';
-export const easeInExpo = 'cubic-bezier(0.950, 0.050, 0.795, 0.035)';
-export const easeInCirc = 'cubic-bezier(0.600, 0.040, 0.980, 0.335)';
-export const easeInBack = 'cubic-bezier(0.600, -0.280, 0.735, 0.045)';
-
-export const easeOutQuad = 'cubic-bezier(0.250, 0.460, 0.450, 0.940)';
-export const easeOutCubic = 'cubic-bezier(0.215, 0.610, 0.355, 1.000)';
-export const easeOutQuart = 'cubic-bezier(0.165, 0.840, 0.440, 1.000)';
-export const easeOutQuint = 'cubic-bezier(0.230, 1.000, 0.320, 1.000)';
-export const easeOutSine = 'cubic-bezier(0.390, 0.575, 0.565, 1.000)';
-export const easeOutExpo = 'cubic-bezier(0.190, 1.000, 0.220, 1.000)';
-export const easeOutCirc = 'cubic-bezier(0.075, 0.820, 0.165, 1.000)';
-export const easeOutBack = 'cubic-bezier(0.175, 0.885, 0.320, 1.275)';
-
-export const easeInOutQuad = 'cubic-bezier(0.455, 0.030, 0.515, 0.955)';
-export const easeInOutCubic = 'cubic-bezier(0.645, 0.045, 0.355, 1.000)';
-export const easeInOutQuart = 'cubic-bezier(0.770, 0.000, 0.175, 1.000)';
-export const easeInOutQuint = 'cubic-bezier(0.860, 0.000, 0.070, 1.000)';
-export const easeInOutSine = 'cubic-bezier(0.445, 0.050, 0.550, 0.950)';
-export const easeInOutExpo = 'cubic-bezier(1.000, 0.000, 0.000, 1.000)';
-export const easeInOutCirc = 'cubic-bezier(0.785, 0.135, 0.150, 0.860)';
-export const easeInOutBack = 'cubic-bezier(0.680, -0.550, 0.265, 1.550)';
+export const easeInSine = 'cubic-bezier(0.12, 0, 0.39, 0)';
+export const easeOutSine = 'cubic-bezier(0.61, 1, 0.88, 1)';
+export const easeInOutSine = 'cubic-bezier(0.37, 0, 0.63, 1)';
+export const easeInQuad = 'cubic-bezier(0.11, 0, 0.5, 0)';
+export const easeOutQuad = 'cubic-bezier(0.5, 1, 0.89, 1)';
+export const easeInOutQuad = 'cubic-bezier(0.45, 0, 0.55, 1)';
+export const easeInCubic = 'cubic-bezier(0.32, 0, 0.67, 0)';
+export const easeOutCubic = 'cubic-bezier(0.33, 1, 0.68, 1)';
+export const easeInOutCubic = 'cubic-bezier(0.65, 0, 0.35, 1)';
+export const easeInQuart = 'cubic-bezier(0.5, 0, 0.75, 0)';
+export const easeOutQuart = 'cubic-bezier(0.25, 1, 0.5, 1)';
+export const easeInOutQuart = 'cubic-bezier(0.76, 0, 0.24, 1)';
+export const easeInQuint = 'cubic-bezier(0.64, 0, 0.78, 0)';
+export const easeOutQuint = 'cubic-bezier(0.22, 1, 0.36, 1)';
+export const easeInOutQuint = 'cubic-bezier(0.83, 0, 0.17, 1)';
+export const easeInExpo = 'cubic-bezier(0.7, 0, 0.84, 0)';
+export const easeOutExpo = 'cubic-bezier(0.16, 1, 0.3, 1)';
+export const easeInOutExpo = 'cubic-bezier(0.87, 0, 0.13, 1)';
+export const easeInCirc = 'cubic-bezier(0.55, 0, 1, 0.45)';
+export const easeOutCirc = 'cubic-bezier(0, 0.55, 0.45, 1)';
+export const easeInOutCirc = 'cubic-bezier(0.85, 0, 0.15, 1)';
+export const easeInBack = 'cubic-bezier(0.36, 0, 0.66, -0.56)';
+export const easeOutBack = 'cubic-bezier(0.34, 1.56, 0.64, 1)';
+export const easeInOutBack = 'cubic-bezier(0.68, -0.6, 0.32, 1.6)';
